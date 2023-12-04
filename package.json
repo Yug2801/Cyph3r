@@ -2,7 +2,7 @@
   "name": "cypher",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Yug2801.github.io/Cyph3r",
+  "homepage": "https://Yug2801.github.io/Cyph3r.git",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.17.0",
