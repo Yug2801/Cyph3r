@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import "../css/header.css";
-
+import { Link } from "react-router-dom";
 function Header() {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
 
@@ -52,7 +52,8 @@ function Header() {
           <div className="left-nav">
             <ul>
               <li className="list-items">
-                <a className="list-item" href="#">HOME</a>
+              <Link to="/" className="list-item"  >HOME</Link>
+                
               </li>
               <li className="list-items">
                 <a className="list-item" href="#">ABOUT US</a>
@@ -61,10 +62,11 @@ function Header() {
                 <a className="list-item" href="#">ALL PROJECT</a>
               </li>
               <li className="list-items">
-                <a className="list-item" href="#">BLOG</a>
+              <Link to="/blog" className="list-item"  >BLOG</Link>
+                
               </li>
               <li className="list-items">
-                <a className="list-item" href="#">CONTACT</a>
+                <Link to="/contact" className="list-item" >CONTACT</Link>
               </li>
             </ul>
           </div>

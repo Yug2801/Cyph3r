@@ -1,0 +1,46 @@
+.footer{
+    height: 10vmin;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.footer-left{
+    width:25%;
+}
+.footer-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text p{
+    letter-spacing: 0.3vmin;
+    font-weight: 700;
+    display:block;
+    font-size: 1.5vmin;
+    text-decoration: none;
+    color: white;
+    padding: 4vmin;
+}
+.footer-link{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.footer-link svg{
+    display:block;
+    font-size: 2vmin;
+    text-decoration: none;
+    color: white;
+    padding: 4vmin 3vmin;
+}
+ 
+ 
+ 
+@media (max-width: 1080px) {
+    .footer-left{
+        width:10%;
+    }
+  }

@@ -1,0 +1,107 @@
+.image-slider {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+  }
+  
+  .image-slider img {
+    margin-left: -10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    animation: zoom 20s infinite alternate ease-in-out;
+    opacity: 0.95;
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+     
+    }
+  }
+  
+  .dots {
+    float: right;
+    transform: rotate(90deg);
+    display:flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 50vmin;
+    z-index: 99;
+  }
+  
+  .dots span {
+    width: 1vmin;
+    height: 1vmin;
+    margin: 0 1vmin;
+    border-radius: 50%;
+    background-color: #969696;
+    cursor:pointer;
+  }
+  
+  .dots span.active {
+    background-color: #ffffff;
+  }
+  .allbloglink{
+    position:relative;
+    color: white;
+    height: 7vmin;
+    width: 19vmin;
+    float: right;
+    margin-top: 72vmin;
+    z-index: 9;
+    
+    color:  rgb(220, 220, 220);;
+    -webkit-clip-path:polygon(10% 20%, 90.15% 20.56%, 77.14% 91.93%, 2.14% 93.13%, 0.13% 95%, 10% 20%);
+    clip-path:polygon(10% 20%, 90.15% 20.56%, 77.14% 91.93%, 2.14% 93.13%, 0.13% 95%, 10% 20%);
+    
+  }
+  .allbloglink a{
+    letter-spacing: 0.4vmin;
+    font-size: 2vmin;
+    position: relative;
+    margin-left: 2vmin;
+    top:2vmin;
+    text-decoration: none;
+    color:  rgb(220, 220, 220);
+    filter: brightness(2);
+    font-weight: 600;
+  }
+  /* imageslider.css */
+
+.image-zoom-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.image-zoom-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.image-zoom-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image-zoom-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+.down-midright-text{
+  float: left;
+  align-items: center;
+ margin-left: 20%;
+    margin-top: 40%;
+    z-index: 100;
+}

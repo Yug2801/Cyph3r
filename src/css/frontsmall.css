@@ -1,0 +1,138 @@
+.Appfront-small {
+    background-color: rgb(255, 255, 255);
+ min-height: 100vh;
+    font-size: 2vmin;
+    
+
+  justify-content: space-between;
+
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  
+  
+  }
+  .Appfront-small .up{
+    position: relative;
+    display: flex;
+      width: 100%;
+      height: 50vh;
+
+      flex-direction: column;
+    }
+    .Appfront-small .right{
+  
+        width: 100%;
+  
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 50%);
+      overflow: hidden;
+      }
+      .Appfront-small .up-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    margin-top: 10vh;
+      min-height: 50vh;
+      width: 100%;
+      
+      
+      }
+      .Appfront-small .up-down{
+        
+      
+        height: 50%;
+        width: 100%;
+      }
+      .Appfront-small .up-name{
+        
+        width: fit-content;
+        margin-bottom: 10%;
+        min-height: 5vh;
+  
+      }
+      .Appfront-small .up-name p{
+       text-align: center;
+            font-weight: 600;
+          letter-spacing: 0.2vmin;
+          font-size: 15vmin;
+          padding: 5vmin;
+          font-weight:600 ;
+          }
+          .Appfront-small .up-name h1{
+            text-align: center;
+           
+          font-size: 4vmin;
+          font-weight: 300;
+          letter-spacing: 0.1vmin;
+          }
+          .up-text{
+           min-height: 30vh;
+       
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+          }
+         .Appfront-small .right{
+          min-height: 35vh;
+         }
+       
+          .Appfront-small .down .down-midleft{
+       padding-left: 5vmin; 
+            width: 60%;
+            background-color: rgb(255, 255, 255);
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            } 
+            .Appfront-small .down-midright-link{
+                display: flex;
+                flex-direction: row;
+              }
+           .Appfront-small .down-midright-link svg{
+                height: 5vmin;
+                width: 5vmin;
+                margin: 2vmin;
+                color: rgb(69, 247, 247);
+              }
+              .Appfront-small .linuxicon{
+        
+                width: 15vmin;
+                height: 100%;
+               
+                
+              }
+              .Appfront-small .linuxicon-parent{
+                
+             min-height: 20vh;
+             min-width: 20vh;
+                -webkit-clip-path:  polygon(0.91% -1.11%, 100.46% 0%, 79.32% 66.09%, 78.57% 64.97%, 1.38% 81.1%, 0.71% -1.14%);
+                clip-path:   polygon(0.91% -1.11%, 100.46% 0%, 79.32% 66.09%, 78.57% 64.97%, 1.38% 81.1%, 0.71% -1.14%);
+                background-color: rgb(255, 255, 255);
+             
+              }
+              .Appfront-small .linuxicon svg{
+           
+                margin-left: 2vmin;
+                margin-top: 2vmin;
+                z-index: -10;
+                min-height: 12vh;
+                min-width: 15vh;
+                background-color: transparent;
+                
+                color: black;
+              }
+              .Appfront-small .linuxicon svg:hover{
+                background-color: transparent;
+              }
+              .Appfront-small .button-shadow{
+                display: block;
+                float: right;
+                height: 100%;
+                overflow: auto;
+                filter: drop-shadow(0px -1px 30px  rgba(0, 33, 95, 0.2));
+                transition: all .35s ease;
+              
+              }
+
+
+        

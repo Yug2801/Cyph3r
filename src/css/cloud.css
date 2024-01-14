@@ -1,0 +1,32 @@
+
+   .cloud-text2{
+    font-weight: 700;
+    font-size: 4vmin;
+    fill: rgb(158, 158, 158);
+    letter-spacing: 0.1vmin;
+   }
+ 
+   .cloud-text1{
+    font-weight: 550;
+    font-size: 4vmin;
+    letter-spacing: 0.1vmin;
+    fill:rgb(65, 65, 68);
+   }
+
+  
+
+
+  /* cloud.css */
+
+.centered-cloud-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.centered-cloud-svg {
+  width: 65vmin;
+  height: 45vmin; 
+}
+

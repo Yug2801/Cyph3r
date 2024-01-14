@@ -1,0 +1,35 @@
+/* imageslider.css */
+
+.text-container {
+    height: 1.3em; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .text-field {
+    display: inline-block;
+    position: relative;
+font-weight: 600;
+font-size: 5vmin;
+letter-spacing: 0.1vmin;
+color: rgb(255, 255, 255);
+
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 0.5em;
+    height: 1.2em;
+    background-color: rgb(103, 38, 173);
+    animation: blink 0.7s infinite;
+    position: absolute;
+  }
+  
+  @keyframes blink {
+    40% {
+      opacity: 0;
+    }
+  }
+  

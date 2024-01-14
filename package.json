@@ -1,5 +1,5 @@
 {
-  "name": "cypher",
+  "name": "Cypher",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://Yug2801.github.io/Cyph3r.git",
@@ -11,8 +11,11 @@
     "gh-pages": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "^5.0.1",
     "save-dev": "^0.0.1-security",
+    "styled-components": "^6.1.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
