@@ -1,12 +1,13 @@
 
 //import './Main.css';
-m 'react';
+
 import About from './About';
 import CenteredCloudWithText from './cloud';
 import Foote from './footer';
 import Front from './front';
 import Header from './header';
 import Horizontal from './horizontal';
+
 
 
 
