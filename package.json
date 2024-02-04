@@ -18,7 +18,7 @@
     "save-dev": "^0.0.1-security",
     "styled-components": "^6.1.8",
     "web-vitals": "^2.1.4",
-    "homepage": "https://Yug2801.github.io/"
+    "homepage": "https://Yug2801.github.io/Cyph3r"
   },
   "scripts": {
     "predeploy": "npm run build",
