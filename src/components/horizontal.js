@@ -1,6 +1,5 @@
 
 import "../css/headarrow.css";
-import { useState, useEffect, useRef } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";

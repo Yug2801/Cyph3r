@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/Cyph3r.git/static/css/main.9454f5bb.css",
-    "main.js": "/Cyph3r.git/static/js/main.feb067cb.js",
-    "static/js/787.2743aea5.chunk.js": "/Cyph3r.git/static/js/787.2743aea5.chunk.js",
+    "main.css": "/Cyph3r.git/static/css/main.3d12df18.css",
+    "main.js": "/Cyph3r.git/static/js/main.055fff2c.js",
+    "static/js/592.8f8a54b8.chunk.js": "/Cyph3r.git/static/js/592.8f8a54b8.chunk.js",
     "static/media/images1.jpg": "/Cyph3r.git/static/media/images1.2dda27396b42f059752e.jpg",
     "static/media/Untitled.jpg": "/Cyph3r.git/static/media/Untitled.40b0e2463483205e5c31.jpg",
     "static/media/images.jpg": "/Cyph3r.git/static/media/images.310df5cd4a3cab055abd.jpg",
     "static/media/profile.png": "/Cyph3r.git/static/media/profile.eac6ab11fc2b10b89208.png",
     "static/media/ABOUT-US.jpg": "/Cyph3r.git/static/media/ABOUT-US.2eb2a6ba57cf7418f5c2.jpg",
     "static/media/OUR BLOGS.png": "/Cyph3r.git/static/media/OUR BLOGS.e2399fcbe91f399bc726.png",
-    "static/media/awsm.svg": "/Cyph3r.git/static/media/awsm.bf17d8d2007e937e06947303e8df28e6.svg",
     "static/media/gun.svg": "/Cyph3r.git/static/media/gun.e294afbce07ee305015d28bf61b25423.svg",
     "static/media/back.jpg": "/Cyph3r.git/static/media/back.ebd3cd11a1cdcae04d84.jpg",
     "static/media/awsmg.svg": "/Cyph3r.git/static/media/awsmg.d076b77b5f1c4f65d6e4b4ce172bb247.svg",
     "static/media/flag.svg": "/Cyph3r.git/static/media/flag.f5c5be2e0ca46ed1a196e539012eed52.svg",
-    "static/media/house.svg": "/Cyph3r.git/static/media/house.1ec36de4295a6c979b08b1b2d98d78fa.svg",
     "static/media/line.svg": "/Cyph3r.git/static/media/line.b777a7e185176e4d2b3c6c100b131fb1.svg",
     "static/media/box.svg": "/Cyph3r.git/static/media/box.0ff62992b4a45df8d7712ce3df53d5eb.svg",
     "static/media/skull.svg": "/Cyph3r.git/static/media/skull.ff969e992b47cf76d6fbddaef4a4c1e1.svg",
@@ -22,12 +20,12 @@
     "static/media/logo.svg": "/Cyph3r.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/cloud.svg": "/Cyph3r.git/static/media/cloud.b033f27083a170f24d59dfe4db058b87.svg",
     "index.html": "/Cyph3r.git/index.html",
-    "main.9454f5bb.css.map": "/Cyph3r.git/static/css/main.9454f5bb.css.map",
-    "main.feb067cb.js.map": "/Cyph3r.git/static/js/main.feb067cb.js.map",
-    "787.2743aea5.chunk.js.map": "/Cyph3r.git/static/js/787.2743aea5.chunk.js.map"
+    "main.3d12df18.css.map": "/Cyph3r.git/static/css/main.3d12df18.css.map",
+    "main.055fff2c.js.map": "/Cyph3r.git/static/js/main.055fff2c.js.map",
+    "592.8f8a54b8.chunk.js.map": "/Cyph3r.git/static/js/592.8f8a54b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9454f5bb.css",
-    "static/js/main.feb067cb.js"
+    "static/css/main.3d12df18.css",
+    "static/js/main.055fff2c.js"
   ]
 }
