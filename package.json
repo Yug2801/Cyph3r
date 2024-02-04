@@ -18,9 +18,10 @@
     "save-dev": "^0.0.1-security",
     "styled-components": "^6.1.8",
     "web-vitals": "^2.1.4",
-    "homepage": "https://Yug2801.github.io/Cyph3r"
+    "homepage": "https://yug2801.github.io/"
   },
   "scripts": {
+    "preinstall": "npm cache clean --force",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
