@@ -172,10 +172,7 @@ margin-bottom: 2vmin;
       font-size: 1.75vmin;
       font-weight: 600;
       }
-      .About{
-        height: 120vmin;
-        width: 100%;
-      }
+      
       .linuxicon{
         
         width: 15vmin;
@@ -221,4 +218,5 @@ margin-bottom: 2vmin;
       }
      
 
- /* Add this to your CSS file, e.g., front.css */
+      
+      

@@ -1,105 +1,123 @@
 import React from 'react';
-
-import '../css/Aboutus.css'; 
-import '../css/animate.css';
-
+import '../css/Aboutus.css';
 import Header from './header';
 import Foote from './footer';
-const App = () => {
+import profile from '../image/profile.png'
+import logo from "../logo.svg";
+const AboutUsPage = () => {
   return (
     <div>
-      {/* Navigation bar */}
-     <div className='Header'><Header/></div>
+    <div><Header/></div>
+    <div className='header1'></div>
+      <section id="home">
+        <div className="home-left">
+          <img src={profile} alt="" />
+        </div>
+        <div className="home-right">
+          <h2 className="home-heading">Welcome to Cyph3r Club</h2>
+          <p className="home-para"> Cyph3r Club is a passionate community dedicated to the fascinating world of cybersecurity and ethical hacking. We are a group of tech enthusiasts, ethical hackers, and security professionals committed to exploring and promoting cyber awareness.</p>
+          <a href="" className="btn">Discover Our blog</a>
+        </div>
+      </section>
 
-      {/* Carousel */}
-      <div id="myCarousel" className="carousel slide" data-ride="carousel">
-      {/* Indicators */}
-      <ol className="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
+      <section id="workFlow">
+        <h2 className="heading"> Empowering Your Cybersecurity Journey </h2>
+        <p className="para">At Cyph3r Club, we focus on fostering knowledge, skills, and ethical practices in the field of cybersecurity. Our mission is to empower individuals to become ethical hackers, defenders of digital landscapes, and contributors to a safer online environment.
+       </p>
+        <div className="num-container">
+          <div className="num-item"><span>Join Our Community</span></div>
+          <div className="num-item"><span>Explore Ethical Hacking</span></div>
+          <div className="num-item"><span>Collaborate on Projects</span></div>
+        </div>
+      </section>
 
-      {/* Wrapper for slides */}
-      <div className="carousel-inner" role="listbox">
-        <div className="item active">
-          <img src="" alt="First slide" />
-          <div className="container">
-            <div className="carousel-caption">
-              <h1>Some Headline</h1>
-              <p>A successful marriage requires falling in love many times, always with the same person.</p>
-              <p><a className="btn btn-default btn-lg" href="#">Learn More</a></p>
-            </div>
+      <section id="goal">
+        <div className="goal-left">
+          <h2>Our Mission and Goals</h2>
+          <p>Cyph3r Club aims to create a dynamic platform where individuals can learn, collaborate, and contribute to the ever-evolving field of cybersecurity. Our goals include:
+        </p>
+          <ul>
+          <li>Providing education and resources in ethical hacking and cybersecurity.</li>
+            <li>Promoting ethical hacking practices and awareness among students and professionals.</li>
+            <li>Creating a supportive community for knowledge exchange and collaboration.</li>
+         </ul>
+          <a href="" className="btn"> Contact Us</a>
+        </div>
+        <div className="goal-right">
+        <img src={profile} alt="" />
+        </div>
+      </section>
+
+      <section id="our-Team">
+        <h2>Our Member</h2>
+        <div className="teamContainer">
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
           </div>
-        </div>
-
-        <div className="item">
-          <img src="" alt="Second slide" />
-          <div className="carousel-caption">
-            <h1>Some Headline</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nihil explicabo aperiam omnis tenetur quod, inventore quaerat nobis recusandae consequuntur.</p>
-            <p><a className="btn btn-default btn-lg" href="#">Learn More</a></p>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
           </div>
-        </div>
-
-        <div className="item">
-          <img src="" alt="Third slide" />
-          <div className="carousel-caption">
-            <h1>Some Headline</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nihil explicabo aperiam omnis tenetur quod, inventore quaerat nobis recusandae consequuntur.</p>
-            <p><a className="btn btn-default btn-lg" href="#">Learn More</a></p>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
           </div>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
+          </div>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
+          </div>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
+          </div>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
+          </div>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
+          </div>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
+          </div>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
+          </div>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
+          </div>
+          <div className="team-item">
+          <img src={profile} alt="" />
+            <h5 className="member-name">John Smith</h5>
+            <span className="role">seo expert</span>
+          </div>
+          
         </div>
-      </div>
-    </div>
-      {/* Team section */}
-      <div className="container team">
-      <div className="row">
-        <div className="col-lg-4">
-          <img src="" alt="boy 1 image" className="img-circle animated wobble" width="140" height="140" />
-          <h2>Team member 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis voluptatum, sit dicta voluptatem distinctio molestiae, harum dolor, sunt, porro dolorum? Sapiente corrupti nobis, enim.</p>
-          <p><a href="#" className="btn btn-default">Sign Up &raquo;</a></p>
-        </div>
-        <div className="col-lg-4">
-          <img src="" alt="boy 2 image" className="img-circle animated wobble" width="140" height="140" />
-          <h2>Team member 2</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis voluptatum, sit dicta voluptatem distinctio molestiae, harum dolor, sunt, porro dolorum? Sapiente corrupti nobis, enim.</p>
-          <p><a href="#" className="btn btn-default">Sign Up &raquo;</a></p>
-        </div>
-        <div className="col-lg-4">
-          <img src="" alt="boy 3 image" className="img-circle animated wobble" width="140" height="140" />
-          <h2>Team member 3</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis voluptatum, sit dicta voluptatem distinctio molestiae, harum dolor, sunt, porro dolorum? Sapiente corrupti nobis, enim.</p>
-          <p><a href="#" className="btn btn-default">Sign Up &raquo;</a></p>
-        </div>
-      </div>
-    </div>
-
-      {/* Divider */}
-      <hr className="divider" />
-
-      {/* Content sections */}
-      <div className="container">
-      <hr className="divider" />
-
-      <div className="row content">
-        <div className="col-md-7 mickey">
-          <h2 className="content-heading">First heading goes here. <span className="text-muted"> this looks great</span> </h2>
-          <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quo cum beatae, adipisci officia rem voluptatem, accusamus non maxime illum aut odit voluptatibus accusantium culpa minima modi quas repellat sunt.</p>
-        </div>
-        <div className="col-md-5">
-          <img src="" alt="playing kid" className="content-image img-responsive center-block" />
-        </div>
-      </div>
-
-
-    </div>
-      {/* Footer */}
-     <Foote/>
-
+      
+      </section>
+      <div><Foote/></div>
     </div>
   );
-}
+};
 
-export default App;
+export default AboutUsPage;

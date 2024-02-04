@@ -1,12 +1,11 @@
 .head-arrow{
     width: 100%;
-    min-height:20vh;
     display: flex;
 
 }
 .hleft{
     margin-left: 2vmin;
-    width: 20vmin;
+    width: 20vh;
 }
     .hmid{
 
@@ -22,6 +21,7 @@
 .hmid p{
   
 margin-top: 7vmin;
+text-decoration: underline;
 }
     .hright{
         min-width: 20vh;
@@ -50,7 +50,7 @@ margin-top: 7vmin;
  
     .allblog-link{
         float: right;
-        margin-top:-5vmin;
+        margin-top:-3vmin;
         margin-right: 15vmin;
         transition: all 0.3s ease;
        
@@ -62,4 +62,11 @@ margin-top: 7vmin;
     .allblog-link:hover{
         transform: scale(1.1);
   
+    }
+    @media screen and (max-width: 1080px) 
+    {
+        .hleft{
+            margin-left: 2vmin;
+            width: 5vh;
+        }
     }

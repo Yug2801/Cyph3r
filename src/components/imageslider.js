@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import '../css/imageslider.css'; // Create this CSS file for zoom animation
 import '../css/textchange.css'; // Create this CSS file for zoom and fade animations
-import { Link } from 'react-router-dom';
+
 
 const ImageSlider = ({ blogsimage }) => {
 
@@ -78,9 +78,7 @@ const ImageSlider = ({ blogsimage }) => {
           />
         ))}
       </div>
-      <div className="allbloglink">
-        <Link to="/blog">all blogs +</Link>
-      </div>
+      
     </div>
   );
 };

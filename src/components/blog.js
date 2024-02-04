@@ -15,22 +15,14 @@ const BlogPage = () => {
         <Header />
       </header>
 
-      {/* Black Screen with Centered Blogs */}
-      <div className="black-screen">
-        <div>
-          <h1>BLOGS</h1>
-          {/* Add more blog content as needed */}
-        </div>
-      </div>
+      <div className="black-screen">  </div>
 
       <div className="white-strip"></div>
 
-    
-      {/* Blog Elements */}
       <div>
         <Features />
         <Features/>
-        {/* Add more detailed blog content as needed */}
+ 
       </div>
 
       {/* Footer */}

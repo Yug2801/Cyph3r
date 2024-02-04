@@ -1,18 +1,19 @@
 .About{
     background-color: rgb(23, 23, 23);
-    min-height: 120vmin;
     font-size: 4vmin;
+    
     z-index: 0;
     overflow: hidden;
 }
 .About .about-left{
   display: flex;
-    height: 40vmin;
+    
   width: 100%;
   flex-direction: column;
 }
 .about-left-up{
   text-decoration: underline;
+  margin-top: 5vh;
 height: 10%;
 margin-top: 4%;
 margin-left: 15%;
@@ -25,8 +26,8 @@ color: white;
 }
 .about-left-down-left{
   align-self: flex-start;
-  width: 50vmin;
- 
+  width: 30%;
+ opacity: 0.8;
 height: 100%;
 margin-left: 15%;
 color: white;
@@ -52,14 +53,14 @@ display: none;
 }
 .about-right-left{
 align-self: flex-start;
-width: 400vmin;
-height: 100%;
+width: 50%;
+
 
 }
 .about-right-right{
   align-self: flex-end;
+width: 50%;
 
-height: 100%;
 }
 .about-right-up{
     font-size: 1.7vmin;
@@ -68,7 +69,7 @@ height: 100%;
     letter-spacing: 0.3vmin;
     font-weight: 700;
     color: white;
-
+opacity: 0.9;
 padding: 5vmin;
 margin-top: 5%;
 margin-left: 5%;
@@ -83,6 +84,8 @@ margin-right: 15%;
 }
 .about-right-down a{
   font-style: none;
+  float: right;
+  margin-right: 10vmin;
   font-size: 1.7vmin;
   word-spacing: 0.5vmin;
   letter-spacing: 0.3vmin;
@@ -90,16 +93,17 @@ margin-right: 15%;
   color: white;
 }
 .down-about{
-  width: 40vmin;
-  height: 50vmin;
+  width: fit-content;
+  height: fit-content;
   background-color: rgb(105, 105, 105);
-margin-top: -25vmin;
+margin-top: -5vmin;
 
   float: left;
   margin-left: 25vmin;
   -webkit-clip-path:  polygon(0% 16.28%, 99.52% 1.13%, 98.55% 100.00%, 50% 100%, 35.36% 100%, 0.06% 100.26%);
 
 clip-path:  polygon(0% 16.28%, 99.52% 1.13%, 98.55% 100.00%, 50% 100%, 35.36% 100%, 0.06% 100.26%);
+margin-bottom: 5vh;
 }
 .about-image{
   width: 100%;
@@ -114,16 +118,26 @@ clip-path:  polygon(3.00% 18.15%, 96.52% 4.06%, 95.21% 98.14%, 2.64% 98.13%, 95.
     margin-left: 25vmin;
     width: 20vmin;
 }
-.flag{
-    float: right;
-    margin-left: 110vmin;
-    margin-top: -5vmin;
-   
+.flag {
+  float: right;
+  margin-left: 110vmin;
+  margin-top: -20vmin;
+  opacity: 0; 
+  transform: translateY(); 
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
 
+.flag.animate-upward {
+  opacity: 1;
+  transform: translateY(-5vmin); /* Adjust the translateY value based on how much you want the div to move upward */
 }
-.flag img{
-    width: 8vmin;
+
+.flag img {
+  width: 8vmin;
 }
+
+
+
 .aswmg {
   display: block;
   width: fit-content;
@@ -133,30 +147,43 @@ padding: 25vmin;
 float: left;
   
 }
-.skull{
-  margin-top: 0vmin;
-  margin-left: -25vmin;
+.skull {
+  margin-top: 20vmin;
+  margin-left: -20vmin;
+  opacity: 0;
+  transform: translateY(0);
+  transition: opacity 1s ease-out, transform 1s ease-out;
 }
-.skull img{
+
+.skull.animate-upward {
+  opacity: 1;
+  transform: translateY(-5vmin);
+}
+
+.skull img {
   margin-top: -10vmin;
   width: 7vmin;
 }
-.aswmgi img{
-  width: 20vmin;
- 
-}
-.aswmgi{
+
+.aswmgi {
   width: 100%;
   margin-top: -10vmin;
   margin-left: 7vmin;
-
+  transform: translateY(0);
+  transition: opacity 1s ease-out, transform 0.3s ease-out;
 }
+
+.aswmgi.animate-upward {
+  opacity: 1;
+  transform: translateY(-5vmin);
+}
+
+.aswmgi img {
+  width: 20vmin;
+}
+
 @media screen and (max-width: 1080px) {
-    
-    .About .about-left,
-    .About .about-right {
-        height: auto;
-    }
+  
 
     .about-left-up {
         margin-top: 2%;
@@ -191,8 +218,9 @@ float: left;
     .down-about {
         width: 23vmin;
   height: 25vmin;
-  background-color: rgb(105, 105, 105);
-margin-top: vmin;
+  background-color: rgb(184, 184, 184);
+margin-top: -15vmin;
+opacity: 0.8;
 
   float: left;
   margin-left: 25vmin;
@@ -219,25 +247,27 @@ clip-path:  polygon(0% 16.28%, 99.52% 1.13%, 98.55% 100.00%, 50% 100%, 35.36% 10
         
     }
     .skull{
-        margin-top: 15vmin;
+        margin-top: 5vmin;
+        margin-left: 0vmin;
     }
     .skull img{
         margin-top: -10vmin;
-        width: 7vmin;
+        width: 6vmin;
     }
     .aswmgi img{
-        width: 20vmin;
+        width: 17vmin;
        
     }
     .aswmgi{
         width: 100%;
         margin-top: -10vmin;
-        margin-left: 7vmin;
+        margin-left: 5vmin;
     
     }
     .flag{
+      position: relative;
       float: right;
-      margin-left: 70vmin;
+      margin-left: 90vmin;
       margin-top: -5vmin;
      
   
@@ -246,4 +276,227 @@ clip-path:  polygon(0% 16.28%, 99.52% 1.13%, 98.55% 100.00%, 50% 100%, 35.36% 10
       width: 8vmin;
   }
     
+}
+@media screen and (max-width: 1080px) {
+  .flag{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  .about-right-up{
+    font-size: 2vmin;
+    word-spacing: 1.1vmin;
+    line-height: 4vmin;
+    letter-spacing: 0.3vmin;
+    font-weight: 400;
+    color: white;
+
+padding: 5vmin;
+margin-top: 5%;
+margin-left: 5%;
+}     
+.about-right-left{
+  align-self: flex-start;
+  width: 30%;
+  
+  
+  } 
+  .about-right-right{
+    align-self: flex-end;
+  width: 80%;
+  
+  }
+  .down-about{
+    width: 23vmin;
+    height: 25vmin;
+    background-color: rgb(105, 105, 105);
+  margin-top: -3vmin;
+  
+    float: left;
+    margin-left: 20%;
+    -webkit-clip-path:  polygon(0% 16.28%, 99.52% 1.13%, 98.55% 100.00%, 50% 100%, 35.36% 100%, 0.06% 100.26%);
+  
+  clip-path:  polygon(0% 16.28%, 99.52% 1.13%, 98.55% 100.00%, 50% 100%, 35.36% 100%, 0.06% 100.26%);
+  }
+  .skull{
+    margin-top: 17vmin;
+    margin-left: 0vmin;
+}
+.skull img{
+  margin-top: -10vmin;
+  width: 5vmin;
+}
+.aswmgi img{
+  width: 15vmin;
+ opacity: 0.8;
+}
+.aswmgi{
+  width: 100%;
+  margin-top: -10vmin;
+  margin-left: 5vmin;
+
+}
+}
+
+@media screen and (max-width: 800px) {
+  .about-right-left{
+    align-self: flex-start;
+    width: 0%;
+    
+    
+    } 
+    .about-right-right{
+      align-self: flex-end;
+    width: 100%;
+    
+    }
+    .about-right-up {
+      margin-top: 3%;
+      margin-left: 2%;
+      width: 100%;
+      font-size: 2vmin;
+  }
+  .about-right-down{
+
+    height: 10%;
+width: 45%;
+    float: right;
+
+margin-right: 15%;
+}
+.about-right-down a{
+  float: right;
+  font-style: none;
+  font-size: 2vmin;
+  word-spacing: 0.5vmin;
+  letter-spacing: 0.3vmin;
+  font-weight: 700;
+  color: white;
+}
+  
+.skull{
+  margin-top: 25vmin;
+  margin-left: 8vmin;
+}
+.down-about{
+  width: 23vmin;
+  height: 25vmin;
+  background-color: rgb(105, 105, 105);
+margin-top: 3vmin;
+
+  float: left;
+  margin-left: 30%;
+  -webkit-clip-path:  polygon(0% 16.28%, 99.52% 1.13%, 98.55% 100.00%, 50% 100%, 35.36% 100%, 0.06% 100.26%);
+
+clip-path:  polygon(0% 16.28%, 99.52% 1.13%, 98.55% 100.00%, 50% 100%, 35.36% 100%, 0.06% 100.26%);
+}
+}
+@media screen and (max-width: 800px) {
+  .about-right-up {
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 100%;
+    font-size: 2.5vmin;
+}
+.about-left-down-left{
+  align-self: flex-start;
+  width: 50%;
+ 
+height: 100%;
+margin-left: 5%;
+color: white;
+font-size: 5vmin;
+font-weight: 800;
+letter-spacing: .2vmin;
+
+}
+}
+@media screen and (max-width: 500px) {
+  .about-left-up {
+    margin-top: 2%;
+    font-size: 1.2rem;
+    padding-left: 30%;
+
+}
+.about-right-down a{
+  font-style: none;
+  float: right;
+  margin-right: 0vmin;
+  font-size: 2.5vmin;
+  word-spacing: 0.5vmin;
+  letter-spacing: 0.3vmin;
+  font-weight: 700;
+  color: white;
+}
+.About{
+  height: fit-content;
+}
+.about-left-down-right {
+    display: none;
+}
+
+.about-left-down-left{
+  width: 100%;
+  padding-top: 5vmin;
+  padding-right: 5vmin;
+  padding-left: 5vmin;
+  letter-spacing: .3vmin;
+  font-size: 1.2rem;
+  line-height: 7vmin;
+}
+.about-right-right{
+  padding-left: 5vmin;
+  padding-right: 5vmin;
+
+}
+.about-right-up{
+
+ font-size: 1rem;
+line-height: 6vmin;
+font-weight: 400;
+
+}
+.down-about{
+  width: 23vmin;
+  height: 25vmin;
+  background-color: rgb(105, 105, 105);
+margin-top: 3vmin;
+
+  float: left;
+  margin-left: 20%;
+  -webkit-clip-path:  polygon(0% 16.28%, 99.52% 1.13%, 98.55% 100.00%, 50% 100%, 35.36% 100%, 0.06% 100.26%);
+
+clip-path:  polygon(0% 16.28%, 99.52% 1.13%, 98.55% 100.00%, 50% 100%, 35.36% 100%, 0.06% 100.26%);
+}
+.skull{
+ display: none;
+}
+
+}
+@media screen and (max-width: 400px) {
+  .about-left-up{
+    font-size: 1rem;
+  }
+  .about-right-up{
+
+    font-size: 1rem;
+   line-height: 8vmin;
+   font-weight: 400;
+   
+   }
+   .about-right-down a{
+    font-size: 0.8rem;
+   }
+   .down-about{
+    margin-top: 8vmin;
+    margin-left: 35%;
+    width: 30vmin;
+    height: 35vmin;
+  }
+  .about-image img{
+    width: 30vmin;
+    height:35vmin;
+}
 }

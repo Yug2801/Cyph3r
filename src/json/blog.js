@@ -6,6 +6,6 @@ const blogsimage = [
     { "label": "Home", "imageSrc": image1 },
     { "label": "About", "imageSrc": image2 },
     { "label": "Contact", "imageSrc": image3 }
-  // ...
+  
 ];
 export default blogsimage;

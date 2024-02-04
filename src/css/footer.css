@@ -3,6 +3,7 @@
     width: 100%;
     background-color: black;
     display: flex;
+    overflow: hidden;
 }
 .footer-left{
     width:25%;
@@ -19,6 +20,7 @@
     letter-spacing: 0.3vmin;
     font-weight: 700;
     display:block;
+    opacity: 0.8;
     font-size: 1.5vmin;
     text-decoration: none;
     color: white;
@@ -26,21 +28,68 @@
 }
 .footer-link{
     width: 20%;
-    display: flex;
-    flex-direction: row;
+    height: 100%;
+        display: flex;
+        flex-direction: row;
+     margin-left: 10vmin;
+        align-items: center;
 }
 .footer-link svg{
     display:block;
     font-size: 2vmin;
     text-decoration: none;
     color: white;
-    padding: 4vmin 3vmin;
+    margin-left: 5vmin;
+    
 }
  
  
  
 @media (max-width: 1080px) {
     .footer-left{
-        width:10%;
+        width:5%;
+    }
+    .footer-text{
+        height: 100%;
+        width: 50%;
+     
+    }
+    .footer-text p{
+        letter-spacing: 0.3vmin;
+        font-weight: 500;
+    
+        display:block;
+        font-size: 1.8vmin;
+        text-decoration: none;
+        color: white;
+        padding: 4vmin;
+    }
+    .footer-link{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+     margin-left: 10vmin;
+        align-items: center;
+    }
+    .footer-link svg{
+        display:block;
+    font-size: 4vmin;
+    text-decoration: none;
+    color: white;
+    margin-left: 5vmin;
+    padding: 0vmin 0vmin;
+    }
+    
+  }
+  @media (max-width:768) {
+    .footer-text p{
+        letter-spacing: 0.3vmin;
+        font-weight: 700;
+        display:block;
+        font-size: 2.5vmin;
+        text-decoration: none;
+        color: white;
+        padding: 4vmin;
     }
   }

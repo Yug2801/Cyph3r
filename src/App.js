@@ -5,8 +5,10 @@ import Main from './components/Main';
 import Contactus from './components/contact';
 import Header from './components/header';
 import BlogPage from './components/blog';
+import AboutUsPage from './components/Aboutus';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Preloader from './components/preloader';
+
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -37,6 +39,7 @@ function App() {
         <Route  path="/Cyph3r.git" element={<Main/>} />
         <Route path='/blog' element={<BlogPage/>}/>
         <Route path='/contactus' element={<Contactus/>}/>
+        <Route path='/about' element={<AboutUsPage/>}/>
       </Routes>
 
     </div>

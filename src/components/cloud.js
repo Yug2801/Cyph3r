@@ -9,7 +9,7 @@ const CenteredCloudWithText = () => {
         <image href={clou} width="100%" height="100%" />
 
         {/* Example text placed at the center of the SVG */}
-        <Link to="/about">
+        <Link to="/contactus">
           <text x="50%" y="50%" textAnchor="middle" dy="-1em" className='cloud-text1' fill='black'>
             GET SOME QUERY
           </text>

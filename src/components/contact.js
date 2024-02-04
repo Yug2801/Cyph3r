@@ -1,14 +1,12 @@
 import React from "react";
 import Header from "./header";
 import Foote from "./footer";
-
 const Contactus = () => {
     return (
         <div>
         <div><Header/></div>
-        
-      <div className="container-contact100">
-      <div className="Contactus">
+        <div className="container-contact100">
+        <div className="Contactus">
         <form className="contact-form">
           <span className="contactform-html">Send Us A Message</span>
           <label className="name-html" htmlFor="first-name">Tell us your name *</label>
@@ -75,6 +73,7 @@ const Contactus = () => {
       </div>
     </div>
       <div ><Foote/></div>
+    
         </div>
         );
     };

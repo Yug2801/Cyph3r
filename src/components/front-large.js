@@ -50,7 +50,7 @@ function Frontlarge() {
             <p>
               We are Team CYPH3R. Any problems regarding CYBERSECURITY we can
               solve it. CONTACT US for any type of query you get. Don't believe
-              us? Check our projects and don't be a stranger, we're just a call
+              us? Check our blogs and don't be a stranger, we're just a call
               away.
             </p>
           </div>
