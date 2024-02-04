@@ -13,7 +13,7 @@ function Foote(){
     <div className="footer">
     <div className="footer-left"></div>
     <div className="footer-text">
-     <p > Copyright © 2023 CYPH3R <FaLinux/> //  Designed by Yug Modi </p>
+     <p > Copyright © 2023 CYPH3R <FaLinux/> Designed by Yug Modi </p>
      
      </div>
      <div className="footer-link">

@@ -1,13 +1,12 @@
 
 //import './Main.css';
-import { useState,useEffect } from 'react';
+m 'react';
 import About from './About';
 import CenteredCloudWithText from './cloud';
 import Foote from './footer';
 import Front from './front';
 import Header from './header';
 import Horizontal from './horizontal';
-import { Link } from 'react-router-dom';
 
 
 

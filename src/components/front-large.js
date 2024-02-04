@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
-import awsm from "../svg/awsm.svg"
-import logo from "../logo.svg"
+
 import gun from "../svg/gun.svg"
 import line from "../svg/line.svg"
 import '../css/frontlarge.css'
-import { FaAlignRight } from "react-icons/fa6";
+
 import { FaArrowRight } from "react-icons/fa6";
 import blogsimage from '../json/blog'
 import { FaLinux } from "react-icons/fa6";

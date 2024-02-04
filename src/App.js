@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState,useEffect } from 'react';
 import Main from './components/Main';
@@ -6,7 +6,7 @@ import Contactus from './components/contact';
 import Header from './components/header';
 import BlogPage from './components/blog';
 import AboutUsPage from './components/Aboutus';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Preloader from './components/preloader';
 
 function App() {
