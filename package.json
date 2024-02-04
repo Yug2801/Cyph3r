@@ -21,7 +21,7 @@
     "homepage": "https://yug2801.github.io/"
   },
   "scripts": {
-    "preinstall": "npm cache clean --force",
+    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
