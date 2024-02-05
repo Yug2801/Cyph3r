@@ -1,5 +1,5 @@
 {
-  "name": "Cypher",
+  "name": "cypher",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://Yug2801.github.io/Cyph3r.git",
@@ -19,7 +19,7 @@
     "save-dev": "^0.0.1-security",
     "styled-components": "^6.1.8",
     "web-vitals": "^2.1.4",
-    "homepage": "https://yug2801.github.io/",
+    "homepage": "https://yug2801.github.io/cyph3r",
     "nth-check": ">=2.0.1"
   },
   "scripts": {
@@ -54,7 +54,7 @@
     "gh-pages": "^6.1.1",
     "postcss": ">=8.4.31",
     "nth-check": ">=2.0.1"
-  },
+  }
 
   
 }
