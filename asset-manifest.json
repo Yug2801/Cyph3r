@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Cyph3r.git/static/css/main.3d12df18.css",
-    "main.js": "/Cyph3r.git/static/js/main.39c540b5.js",
-    "static/js/592.8f8a54b8.chunk.js": "/Cyph3r.git/static/js/592.8f8a54b8.chunk.js",
+    "main.js": "/Cyph3r.git/static/js/main.ecd63935.js",
+    "static/js/592.c9453a2c.chunk.js": "/Cyph3r.git/static/js/592.c9453a2c.chunk.js",
     "static/media/images1.jpg": "/Cyph3r.git/static/media/images1.2dda27396b42f059752e.jpg",
     "static/media/Untitled.jpg": "/Cyph3r.git/static/media/Untitled.40b0e2463483205e5c31.jpg",
     "static/media/images.jpg": "/Cyph3r.git/static/media/images.310df5cd4a3cab055abd.jpg",
@@ -21,11 +21,11 @@
     "static/media/cloud.svg": "/Cyph3r.git/static/media/cloud.b033f27083a170f24d59dfe4db058b87.svg",
     "index.html": "/Cyph3r.git/index.html",
     "main.3d12df18.css.map": "/Cyph3r.git/static/css/main.3d12df18.css.map",
-    "main.39c540b5.js.map": "/Cyph3r.git/static/js/main.39c540b5.js.map",
-    "592.8f8a54b8.chunk.js.map": "/Cyph3r.git/static/js/592.8f8a54b8.chunk.js.map"
+    "main.ecd63935.js.map": "/Cyph3r.git/static/js/main.ecd63935.js.map",
+    "592.c9453a2c.chunk.js.map": "/Cyph3r.git/static/js/592.c9453a2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d12df18.css",
-    "static/js/main.39c540b5.js"
+    "static/js/main.ecd63935.js"
   ]
 }
