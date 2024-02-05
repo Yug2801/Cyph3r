@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/features.css';
-import { Link } from 'react-router-dom';
 import images from '../image/images.jpg';
 import images1 from '../image/images1.jpg';
 import untitled from '../image/Untitled.jpg';

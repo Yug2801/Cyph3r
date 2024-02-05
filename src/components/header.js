@@ -33,7 +33,6 @@ function Header() {
       cleanup();
     };
   }, [showMediaIcons]);
-
   return (
     <header className={`App-header ${showMediaIcons ? "menu-open" : ""}`}>
       <div className="background-effect"></div>
@@ -43,7 +42,7 @@ function Header() {
           className="Hamburger"
           onClick={() => setShowMediaIcons(!showMediaIcons)}
         >
-          <a className="icon" href="#">
+          <a className="icon" href="https://github.com/Yug2801/">
             <FaAlignRight />
           </a>
         </div>
@@ -59,7 +58,7 @@ function Header() {
               <Link to="/about" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>ABOUT US</Link>
               </li>
               <li className="list-items">
-                <a className="list-item" href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>ALL PROJECT</a>
+              <Link to="/" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>HOME</Link>
               </li>
               <li className="list-items">
               <Link to="/blog" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>BLOG</Link>
@@ -73,17 +72,17 @@ function Header() {
           <div className="right-nav">
             <ul>
               <li className="list-items">
-                <a className="list-item" href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                <a className="list-item" href="https://github.com/Yug2801/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
                   <FaFacebook /> Facebook
                 </a>
               </li>
               <li className="list-items">
-                <a className="list-item" href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                <a className="list-item" href="https://github.com/Yug2801/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
                   <FaInstagram /> Instagram
                 </a>
               </li>
               <li className="list-items">
-                <a className="list-item" href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                <a className="list-item" href="https://github.com/Yug2801/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
                   {" "}
                   <FaLinkedin /> Linkedin
                 </a>
@@ -93,17 +92,17 @@ function Header() {
           <div className="right-nav2">
             <ul>
               <li className="list-items">
-                <a className="list-item" href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                <a className="list-item" href="https://github.com/Yug2801/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
                   <FaFacebook /> 
                 </a>
               </li>
               <li className="list-items">
-                <a className="list-item" href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                <a className="list-item" href="https://github.com/Yug2801/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
                   <FaInstagram /> 
                 </a>
               </li>
               <li className="list-items">
-                <a className="list-item" href="#"onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                <a className="list-item" href="https://github.com/Yug2801/"onClick={() => setShowMediaIcons(!showMediaIcons)}>
                   {" "}
                   <FaLinkedin /> 
                 </a>

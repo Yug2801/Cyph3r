@@ -3,7 +3,7 @@ import '../css/Aboutus.css';
 import Header from './header';
 import Foote from './footer';
 import profile from '../image/profile.png'
-import logo from "../logo.svg";
+
 const AboutUsPage = () => {
   return (
     <div>
@@ -16,7 +16,7 @@ const AboutUsPage = () => {
         <div className="home-right">
           <h2 className="home-heading">Welcome to Cyph3r Club</h2>
           <p className="home-para"> Cyph3r Club is a passionate community dedicated to the fascinating world of cybersecurity and ethical hacking. We are a group of tech enthusiasts, ethical hackers, and security professionals committed to exploring and promoting cyber awareness.</p>
-          <a href="" className="btn">Discover Our blog</a>
+          <a href="https://github.com/Yug2801/" className="btn">Discover Our blog</a>
         </div>
       </section>
 
@@ -41,7 +41,7 @@ const AboutUsPage = () => {
             <li>Promoting ethical hacking practices and awareness among students and professionals.</li>
             <li>Creating a supportive community for knowledge exchange and collaboration.</li>
          </ul>
-          <a href="" className="btn"> Contact Us</a>
+          <a href="https://github.com/Yug2801/" className="btn"> Contact Us</a>
         </div>
         <div className="goal-right">
         <img src={profile} alt="" />

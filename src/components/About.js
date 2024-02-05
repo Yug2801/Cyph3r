@@ -8,7 +8,7 @@ import flag from '../svg/flag.svg'
 import aswmg from '../svg/awsmg.svg'
 import skull from '../svg/skull.svg'
 import React, { useEffect, useRef  } from 'react';
-import styled from 'styled-components';
+
 
 function About() {
   
@@ -74,13 +74,13 @@ function About() {
         <div className='about-right-left'></div>
         <div className='about-right-right'>
             <div className='about-right-up'><p>Hey you! CYPH3R was established in 2019 by KUNAL. We wanted to create a community to help society and aware them about cybersecurity. And throughout the years we realized that actually, we're quite good at this stuff. But our team best speaks for itself, so take a look at our projects below.</p></div>
-            <div className='about-right-down'><a href='#'>More about us <FaArrowRight/></a></div>
+            <div className='about-right-down'><a href='https://github.com/Yug2801/'>More about us <FaArrowRight/></a></div>
         </div>
         </div>
             
         <div className='down-about bounceOutLeft'>
             <div className='about-image'>
-            <img src={profile} alt={'Profile photo'}/>
+            <img src={profile} alt={'Profile'}/>
             </div>
 
    

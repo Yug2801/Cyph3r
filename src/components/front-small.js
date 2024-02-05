@@ -1,23 +1,13 @@
 import { useState, useEffect } from "react";
-import house from "../svg/house.svg";
-import logo from "../logo.svg";
-import gun from "../svg/gun.svg";
-import line from "../svg/line.svg";
+
 import "../css/frontsmall.css";
-import { FaAlignRight } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa6";
+
 import blogsimage from "../json/blog";
-import { FaLinux } from "react-icons/fa6";
 import ImageSlider from "./imageslider";
-import TextSlider from "./textchange";
-import { FaFacebook } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
-import box from "../svg/box.svg"
-import { Link } from 'react-router-dom';
+
 
 function Frontsmall() {
-  const [menuItems, setMenuItems] = useState([]);
+  const [, setMenuItems] = useState([]);
 
   useEffect(() => {
     setMenuItems(blogsimage);

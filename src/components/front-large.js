@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
-import awsm from "../svg/awsm.svg"
-import logo from "../logo.svg"
+
 import gun from "../svg/gun.svg"
 import line from "../svg/line.svg"
 import '../css/frontlarge.css'
-import { FaAlignRight } from "react-icons/fa6";
+
 import { FaArrowRight } from "react-icons/fa6";
 import blogsimage from '../json/blog'
 import { FaLinux } from "react-icons/fa6";
@@ -16,7 +15,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import fingerprint from '../svg/fingerprint.svg'
 function Frontlarge() {
-  const [menuItems, setMenuItems] = useState([]);
+  const [, setMenuItems] = useState([]);
 
   useEffect(() => {
     setMenuItems(blogsimage);
@@ -61,7 +60,7 @@ function Frontlarge() {
       </div>
       <div className="down">
         <div className="down-left">
-          <a href="#">
+          <a href="https://github.com/Yug2801/">
             ABOUT US <FaArrowRight />
           </a>
         </div>
@@ -75,7 +74,7 @@ function Frontlarge() {
         </div>
         <div className="down-midright">
         <img src={fingerprint} className="finger" alt="logo" />
-       <a href="">contact@cyph3r</a>
+       <a href="https://github.com/Yug2801/">contact@cyph3r</a>
         </div>
        
         <div className="down-right">
